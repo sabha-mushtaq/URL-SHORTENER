@@ -1,0 +1,26 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A application to shorten given URL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabha-mushtaq/node-js.git"
+  },
+  "author": "sabha-mushtaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabha-mushtaq/node-js/issues"
+  },
+  "homepage": "https://github.com/sabha-mushtaq/node-js#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.7",
+    "shortid": "^2.2.16"
+  }
+}
