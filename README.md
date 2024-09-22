@@ -39,10 +39,10 @@ Connect to MongoDB:
 
 mongod --dbpath /path/to/your/db
 
-Start the server:
+## Start the server:
 
-##
 node index.js
+
 The server will be running at http://localhost:8000.
 
 API Endpoints
