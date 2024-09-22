@@ -5,33 +5,40 @@ A simple URL shortener built with Node.js and Express. This application allows u
 Shorten long URLs
 Redirect to the original URL when the short URL is accessed
 Track visit history for each shortened URL
-Technologies Used
+
+## Technologies Used
 Node.js
 Express.js
 MongoDB
 Mongoose
-Getting Started
+
+
+## Getting Started
 Prerequisites
 Node.js (v14 or higher)
 MongoDB (v4.0 or higher)
 ## Installation
 Clone the repository:
-##
+
 
 
 git clone https://github.com/yourusername/url-shortener.git
+
 cd url-shortener
+
 Install dependencies:
 
 
 
 npm install
+
 Connect to MongoDB:
 
 ## Ensure your MongoDB server is running. You can use the following command to start it:
 
 
 mongod --dbpath /path/to/your/db
+
 Start the server:
 
 ##
